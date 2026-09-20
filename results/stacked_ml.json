@@ -1,0 +1,25 @@
+{
+  "model": "stacked_ml",
+  "n_test": 5701,
+  "accuracy": 0.7898614278196807,
+  "precision_sarcastic": 0.7821708317791869,
+  "recall_sarcastic": 0.7735153080044264,
+  "f1_sarcastic": 0.7778189910979229,
+  "precision_macro": 0.7894297867505207,
+  "recall_macro": 0.789098791125959,
+  "f1_macro": 0.7892422742511245,
+  "precision_weighted": 0.789785031170272,
+  "recall_weighted": 0.7898614278196807,
+  "f1_weighted": 0.7898013158227335,
+  "confusion_matrix": [
+    [
+      2406,
+      584
+    ],
+    [
+      614,
+      2097
+    ]
+  ],
+  "train_time_s": 542.8
+}

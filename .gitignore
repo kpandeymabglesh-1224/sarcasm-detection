@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Editor settings
+.vscode/
+
+# Dataset: third-party, download it (see README)
+data/Sarcasm_Headlines_Dataset*.json
+
+# Trained models: too large for GitHub, recreate by running the scripts
+models/
+
+# Smoke-test outputs
+results/*smoke*

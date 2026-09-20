@@ -1,0 +1,12 @@
+# Tested in Anaconda base, Python 3.13.9, Windows, RTX 3050 (4 GB)
+# torch must be the CUDA build:
+#   pip install --force-reinstall --no-deps torch==2.9.1 torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cu126
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+nltk==3.9.2
+joblib==1.5.2
+torch==2.9.1
+transformers==5.17.0
+accelerate==1.15.0

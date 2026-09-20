@@ -1,0 +1,30 @@
+{
+  "model": "distilbert",
+  "n_test": 5701,
+  "accuracy": 0.9254516751447115,
+  "precision_sarcastic": 0.9141304347826087,
+  "recall_sarcastic": 0.9306528956104758,
+  "f1_sarcastic": 0.9223176750137086,
+  "precision_macro": 0.9251032996762414,
+  "recall_macro": 0.9256943407818266,
+  "f1_macro": 0.9253301408283853,
+  "precision_weighted": 0.9256402983265352,
+  "recall_weighted": 0.9254516751447115,
+  "f1_weighted": 0.9254775672381896,
+  "confusion_matrix": [
+    [
+      2753,
+      237
+    ],
+    [
+      188,
+      2523
+    ]
+  ],
+  "train_time_s": 168.9,
+  "epochs": 3,
+  "lr": 2e-05,
+  "batch": 32,
+  "max_len": 64,
+  "base_model": "distilbert-base-uncased"
+}
